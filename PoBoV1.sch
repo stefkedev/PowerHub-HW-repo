@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -36895,102 +36895,6 @@ Source: VISHAY wscwsn.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="con_SekS" urn="urn:adsk.eagle:library:37507037">
-<description>&lt;b&gt;Connectors&lt;/B&gt;&lt;hr&gt;
-HTBLuVA Salzburg&lt;br&gt;
-Schuljahr: 2019-20&lt;br&gt;
-Eagle Ver. 9.x&lt;br&gt;</description>
-<packages>
-<package name="AK500/2" urn="urn:adsk.eagle:footprint:38663949/1" library_version="16">
-<description>&lt;b&gt;CONNECTOR&lt;/b&gt;</description>
-<wire x1="-5.08" y1="-3.556" x2="-5.08" y2="-2.159" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="3.937" x2="-5.08" y2="3.937" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="3.937" x2="5.08" y2="2.159" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-3.556" x2="5.08" y2="-3.556" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="3.048" x2="-5.588" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="3.048" x2="-5.08" y2="3.937" width="0.1524" layer="21"/>
-<wire x1="-5.588" y1="3.175" x2="-5.588" y2="2.032" width="0.1524" layer="21"/>
-<wire x1="-5.588" y1="2.032" x2="-5.08" y2="2.159" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.159" x2="-5.08" y2="3.048" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="2.159" x2="5.08" y2="2.159" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="2.159" x2="5.08" y2="-2.159" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.159" x2="5.08" y2="-2.159" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-2.159" x2="-5.08" y2="2.159" width="0.1524" layer="21"/>
-<wire x1="5.08" y1="-2.159" x2="5.08" y2="-3.556" width="0.1524" layer="21"/>
-<wire x1="1.4986" y1="-1.397" x2="3.9116" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="1.1176" y1="-1.016" x2="3.5306" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="-3.9116" y1="-1.016" x2="-1.4986" y2="1.397" width="0.1524" layer="51"/>
-<wire x1="-3.5306" y1="-1.397" x2="-1.1176" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="1.4986" y1="-1.016" x2="3.5306" y2="1.016" width="0.6096" layer="51"/>
-<wire x1="-3.5306" y1="-1.016" x2="-1.4986" y2="1.016" width="0.6096" layer="51"/>
-<wire x1="1.1176" y1="-1.016" x2="1.4986" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="3.5306" y1="1.397" x2="3.9116" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="-3.9116" y1="-1.016" x2="-3.5306" y2="-1.397" width="0.1524" layer="51"/>
-<wire x1="-1.4986" y1="1.397" x2="-1.1176" y2="1.016" width="0.1524" layer="51"/>
-<circle x="2.5146" y="3.048" radius="0.508" width="0.1524" layer="21"/>
-<circle x="-2.5146" y="3.048" radius="0.508" width="0.1524" layer="21"/>
-<circle x="2.5146" y="0" radius="1.778" width="0.1524" layer="51"/>
-<circle x="-2.5146" y="0" radius="1.778" width="0.1524" layer="51"/>
-<pad name="1" x="-2.5146" y="0" drill="1.3" shape="long" rot="R90"/>
-<pad name="2" x="2.5146" y="0" drill="1.3" shape="long" rot="R90"/>
-<text x="-5.08" y="4.445" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-5.715" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-4.445" y="2.54" size="0.9906" layer="21" ratio="12">1</text>
-<text x="0.635" y="2.54" size="0.9906" layer="21" ratio="12">2</text>
-<rectangle x1="-0.381" y1="-1.905" x2="0.381" y2="1.905" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="AK500/2" urn="urn:adsk.eagle:package:38663950/2" type="model" library_version="16">
-<description>&lt;b&gt;CONNECTOR&lt;/b&gt;</description>
-<packageinstances>
-<packageinstance name="AK500/2"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="KL" urn="urn:adsk.eagle:symbol:38663683/2" library_version="16">
-<text x="-1.27" y="3.429" size="1.6764" layer="95" font="vector" rot="R180" align="bottom-center">&gt;NAME</text>
-<pin name="KL" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94" curve="-180"/>
-</symbol>
-<symbol name="KLV" urn="urn:adsk.eagle:symbol:38663682/3" library_version="16">
-<text x="0" y="3.429" size="1.6764" layer="95" font="vector" rot="R180" align="bottom-center">&gt;NAME</text>
-<text x="0" y="3.937" size="1.27" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
-<pin name="KL" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94" curve="-180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AK500/2" urn="urn:adsk.eagle:component:38663690/5" prefix="X" uservalue="yes" library_version="16">
-<description>&lt;b&gt;CONNECTOR&lt;/b&gt;</description>
-<gates>
-<gate name="-1" symbol="KL" x="0" y="5.08" addlevel="always"/>
-<gate name="-2" symbol="KLV" x="0" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="AK500/2">
-<connects>
-<connect gate="-1" pin="KL" pad="1"/>
-<connect gate="-2" pin="KL" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38663950/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-<attribute name="POPULARITY" value="14" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="frames_SekS_V22" urn="urn:adsk.eagle:library:37507199">
 <description>&lt;h2&gt;Rahmen ISO7200 /HTL Sbg /V22&lt;/h2&gt;&lt;hr&gt;
 Version: V20 (WenN/06.2022)
@@ -40977,6 +40881,886 @@ Eagle Ver. 9.x&lt;br&gt;</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="testpoint">
+<description>&lt;b&gt;Test Points&lt;/b&gt; - v1.03 (04/19/10)&lt;p&gt; 
+NOTE: Use attribute LABEL for additional silk label text.&lt;br&gt;
+&lt;p&gt;THIS LIBRARY IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED.&lt;br&gt;
+USE AT YOUR OWN RISK!&lt;p&gt;
+&lt;author&gt;Copyright (C) 2008, Bob Starr&lt;br&gt; http://www.bob-starr.com&lt;br&gt;&lt;/author&gt;</description>
+<packages>
+<package name="SMD-08R">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+0.8 mm, Round, Silk Outline</description>
+<circle x="0" y="0" radius="0.6735" width="0.1778" layer="21"/>
+<smd name="TP" x="0" y="0" dx="0.8" dy="0.8" layer="1" roundness="100" cream="no"/>
+<text x="1.016" y="0.127" size="0.8128" layer="25" ratio="21">&gt;NAME</text>
+<text x="1.016" y="-0.889" size="0.8128" layer="25" ratio="21">&gt;LABEL</text>
+</package>
+<package name="SMD-08S">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+0.8 mm, Square, Silk Outline</description>
+<wire x1="-0.7144" y1="0.7144" x2="-0.7144" y2="-0.7144" width="0.1778" layer="21"/>
+<wire x1="-0.7144" y1="-0.7144" x2="0.7144" y2="-0.7144" width="0.1778" layer="21"/>
+<wire x1="0.7144" y1="-0.7144" x2="0.7144" y2="0.7144" width="0.1778" layer="21"/>
+<wire x1="0.7144" y1="0.7144" x2="-0.7144" y2="0.7144" width="0.1778" layer="21"/>
+<smd name="TP" x="0" y="0" dx="0.8" dy="0.8" layer="1" cream="no"/>
+<text x="1.016" y="0.127" size="0.8128" layer="25" ratio="21">&gt;NAME</text>
+<text x="1.016" y="-0.889" size="0.8128" layer="25" ratio="21">&gt;LABEL</text>
+</package>
+<package name="SMD-10R">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.0 mm, Round, Silk Outline</description>
+<circle x="0" y="0" radius="0.8172" width="0.1778" layer="21"/>
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<text x="1.016" y="0.127" size="0.8128" layer="25" ratio="21">&gt;NAME</text>
+<text x="1.016" y="-0.889" size="0.8128" layer="25" ratio="21">&gt;LABEL</text>
+</package>
+<package name="SMD-10S">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.0 mm, Square, Silk Outline</description>
+<wire x1="-0.7938" y1="0.7938" x2="-0.7938" y2="-0.7938" width="0.1778" layer="21"/>
+<wire x1="-0.7938" y1="-0.7938" x2="0.7938" y2="-0.7938" width="0.1778" layer="21"/>
+<wire x1="0.7938" y1="-0.7938" x2="0.7938" y2="0.7938" width="0.1778" layer="21"/>
+<wire x1="0.7938" y1="0.7938" x2="-0.7938" y2="0.7938" width="0.1778" layer="21"/>
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" cream="no"/>
+<text x="1.143" y="0.127" size="0.8128" layer="25" ratio="21">&gt;NAME</text>
+<text x="1.143" y="-0.889" size="0.8128" layer="25" ratio="21">&gt;LABEL</text>
+</package>
+<package name="SMD-12S">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.2 mm, Square, Silk Outline</description>
+<wire x1="-0.8731" y1="0.8731" x2="0.8732" y2="0.8731" width="0.1778" layer="21"/>
+<wire x1="0.8732" y1="0.8731" x2="0.8732" y2="-0.8731" width="0.1778" layer="21"/>
+<wire x1="0.8732" y1="-0.8731" x2="-0.8731" y2="-0.8731" width="0.1778" layer="21"/>
+<wire x1="-0.8731" y1="-0.8731" x2="-0.8731" y2="0.8731" width="0.1778" layer="21"/>
+<smd name="TP" x="0" y="0" dx="1.2" dy="1.2" layer="1" cream="no"/>
+<text x="1.27" y="-0.508" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.27" y="-1.778" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-12R">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.2 mm, Round, Silk Outline</description>
+<circle x="0" y="0" radius="0.8874" width="0.1778" layer="21"/>
+<smd name="TP" x="0" y="0" dx="1.2" dy="1.2" layer="1" roundness="100" cream="no"/>
+<text x="1.27" y="-0.508" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.27" y="-1.778" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-15R">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.5 mm, Round, Silk Outline</description>
+<circle x="0" y="0" radius="1.0165" width="0.1778" layer="21"/>
+<smd name="TP" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100" cream="no"/>
+<text x="1.397" y="-0.381" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.397" y="-1.651" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-18R">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.8 mm, Round, Silk Outline</description>
+<circle x="0" y="0" radius="1.2141" width="0.1778" layer="21"/>
+<smd name="TP" x="0" y="0" dx="1.8" dy="1.8" layer="1" roundness="100" cream="no"/>
+<text x="1.651" y="-0.508" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.651" y="-1.778" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-20R">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+2.0 mm, Round, Silk Outline</description>
+<circle x="0" y="0" radius="1.3517" width="0.1778" layer="21"/>
+<smd name="TP" x="0" y="0" dx="2" dy="2" layer="1" roundness="100" cream="no"/>
+<text x="1.905" y="-0.508" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.905" y="-1.778" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-15S">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.5 mm, Square, Silk Outline</description>
+<wire x1="-1.0319" y1="1.0319" x2="1.0319" y2="1.0319" width="0.1778" layer="21"/>
+<wire x1="1.0319" y1="1.0319" x2="1.0319" y2="-1.0319" width="0.1778" layer="21"/>
+<wire x1="1.0319" y1="-1.0319" x2="-1.0319" y2="-1.0319" width="0.1778" layer="21"/>
+<wire x1="-1.0319" y1="-1.0319" x2="-1.0319" y2="1.0319" width="0.1778" layer="21"/>
+<smd name="TP" x="0" y="0" dx="1.5" dy="1.5" layer="1" cream="no"/>
+<text x="1.524" y="-0.508" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.524" y="-1.651" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-18S">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.8 mm, Square, Silk Outline</description>
+<wire x1="-1.1906" y1="1.1906" x2="1.1906" y2="1.1906" width="0.1778" layer="21"/>
+<wire x1="1.1906" y1="1.1906" x2="1.1906" y2="-1.1906" width="0.1778" layer="21"/>
+<wire x1="1.1906" y1="-1.1906" x2="-1.1906" y2="-1.1906" width="0.1778" layer="21"/>
+<wire x1="-1.1906" y1="-1.1906" x2="-1.1906" y2="1.1906" width="0.1778" layer="21"/>
+<smd name="TP" x="0" y="0" dx="1.8" dy="1.8" layer="1" cream="no"/>
+<text x="1.778" y="-0.508" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.778" y="-1.778" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-20S">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+2.0 mm, Square, Silk Outline</description>
+<wire x1="-1.27" y1="1.2699" x2="1.27" y2="1.2699" width="0.1778" layer="21"/>
+<wire x1="1.27" y1="1.2699" x2="1.27" y2="-1.27" width="0.1778" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.1778" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.2699" width="0.1778" layer="21"/>
+<smd name="TP" x="0" y="0" dx="2" dy="2" layer="1" cream="no"/>
+<text x="1.905" y="-0.508" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.905" y="-1.778" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="PAD-032">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt; 0.032" Drill</description>
+<circle x="0" y="0" radius="0.8032" width="0.0508" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.8128" diameter="1.6764"/>
+<text x="1.905" y="0" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.905" y="-1.27" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+<rectangle x1="-0.3302" y1="-0.3302" x2="0.3302" y2="0.3302" layer="51"/>
+</package>
+<package name="PAD-036">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt; 0.036" Drill</description>
+<circle x="0" y="0" radius="0.8131" width="0.0508" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.9144" diameter="1.6764"/>
+<text x="1.905" y="0" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.905" y="-1.27" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+<rectangle x1="-0.3302" y1="-0.3302" x2="0.3302" y2="0.3302" layer="51"/>
+</package>
+<package name="PAD-040">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt; 0.040" Drill</description>
+<circle x="0" y="0" radius="1.27" width="0.0508" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.778"/>
+<text x="1.905" y="0" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.905" y="-1.27" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+<rectangle x1="-0.3302" y1="-0.3302" x2="0.3302" y2="0.3302" layer="51"/>
+</package>
+<package name="PAD-046">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt; 0.046" Drill</description>
+<circle x="0" y="0" radius="0.9672" width="0.0508" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.1684" diameter="1.9304"/>
+<text x="2.2225" y="0" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="2.2225" y="-1.27" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+<rectangle x1="-0.3302" y1="-0.3302" x2="0.3302" y2="0.3302" layer="51"/>
+</package>
+<package name="PAD-052">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt; 0.052" Drill</description>
+<circle x="0" y="0" radius="1.1708" width="0.0508" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.3208" diameter="2.1844"/>
+<text x="2.54" y="0.3175" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="2.54" y="-0.9525" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+<rectangle x1="-0.3302" y1="-0.3302" x2="0.3302" y2="0.3302" layer="51"/>
+</package>
+<package name="PAD-056">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt; 0.056" Drill</description>
+<circle x="0" y="0" radius="1.1981" width="0.0508" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.4224" diameter="2.54"/>
+<text x="2.54" y="0.3175" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="2.54" y="-0.9525" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+<rectangle x1="-0.3302" y1="-0.3302" x2="0.3302" y2="0.3302" layer="51"/>
+</package>
+<package name="SMD-08RN">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+0.8 mm, Round</description>
+<circle x="0" y="0" radius="0.502" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="0.8" dy="0.8" layer="1" roundness="100" cream="no"/>
+<text x="0.762" y="0.127" size="0.8128" layer="25" ratio="21">&gt;NAME</text>
+<text x="0.762" y="-0.889" size="0.8128" layer="25" ratio="21">&gt;LABEL</text>
+</package>
+<package name="SMD-08SN">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+0.8 mm, Square</description>
+<wire x1="-0.5556" y1="0.5557" x2="-0.5556" y2="-0.5556" width="0.0508" layer="51"/>
+<wire x1="-0.5556" y1="-0.5556" x2="0.5556" y2="-0.5556" width="0.0508" layer="51"/>
+<wire x1="0.5556" y1="-0.5556" x2="0.5556" y2="0.5557" width="0.0508" layer="51"/>
+<wire x1="0.5556" y1="0.5557" x2="-0.5556" y2="0.5557" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="0.8" dy="0.8" layer="1" cream="no"/>
+<text x="1.016" y="0.127" size="0.8128" layer="25" ratio="21">&gt;NAME</text>
+<text x="1.016" y="-0.889" size="0.8128" layer="25" ratio="21">&gt;LABEL</text>
+</package>
+<package name="SMD-10RN">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.0 mm, Round</description>
+<circle x="0" y="0" radius="0.635" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<text x="1.016" y="0.127" size="0.8128" layer="25" ratio="21">&gt;NAME</text>
+<text x="1.016" y="-0.889" size="0.8128" layer="25" ratio="21">&gt;LABEL</text>
+</package>
+<package name="SMD-10SN">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.0 mm, Square</description>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="-0.635" width="0.0508" layer="51"/>
+<wire x1="-0.635" y1="-0.635" x2="0.635" y2="-0.635" width="0.0508" layer="51"/>
+<wire x1="0.635" y1="-0.635" x2="0.635" y2="0.635" width="0.0508" layer="51"/>
+<wire x1="0.635" y1="0.635" x2="-0.635" y2="0.635" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" cream="no"/>
+<text x="1.016" y="0.127" size="0.8128" layer="25" ratio="21">&gt;NAME</text>
+<text x="1.016" y="-0.889" size="0.8128" layer="25" ratio="21">&gt;LABEL</text>
+</package>
+<package name="SMD-12RN">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.2 mm, Round</description>
+<circle x="0" y="0" radius="0.7099" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="1.2" dy="1.2" layer="1" roundness="100" cream="no"/>
+<text x="1.27" y="-0.508" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.27" y="-1.778" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-12SN">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.2 mm, Square</description>
+<wire x1="-0.7938" y1="0.7938" x2="0.7938" y2="0.7938" width="0.0508" layer="51"/>
+<wire x1="0.7938" y1="0.7938" x2="0.7938" y2="-0.7938" width="0.0508" layer="51"/>
+<wire x1="0.7938" y1="-0.7938" x2="-0.7938" y2="-0.7938" width="0.0508" layer="51"/>
+<wire x1="-0.7938" y1="-0.7938" x2="-0.7938" y2="0.7938" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="1.2" dy="1.2" layer="1" cream="no"/>
+<text x="1.27" y="-0.508" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.27" y="-1.778" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-15RN">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.5 mm, Round</description>
+<circle x="0" y="0" radius="0.7938" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100" cream="no"/>
+<text x="1.397" y="-0.381" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.397" y="-1.651" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-15SN">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.5 mm, Square</description>
+<wire x1="-0.9525" y1="0.9525" x2="0.9525" y2="0.9525" width="0.0508" layer="51"/>
+<wire x1="0.9525" y1="0.9525" x2="0.9525" y2="-0.9525" width="0.0508" layer="51"/>
+<wire x1="0.9525" y1="-0.9525" x2="-0.9525" y2="-0.9525" width="0.0508" layer="51"/>
+<wire x1="-0.9525" y1="-0.9525" x2="-0.9525" y2="0.9525" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="1.5" dy="1.5" layer="1" cream="no"/>
+<text x="1.524" y="-0.381" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.524" y="-1.651" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-18RN">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.8 mm, Round</description>
+<circle x="0" y="0" radius="1.004" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="1.8" dy="1.8" layer="1" roundness="100" cream="no"/>
+<text x="1.524" y="-0.508" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.524" y="-1.778" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-18SN">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.8 mm, Square</description>
+<wire x1="-1.1113" y1="1.1113" x2="1.1113" y2="1.1113" width="0.0508" layer="51"/>
+<wire x1="1.1113" y1="1.1113" x2="1.1113" y2="-1.1113" width="0.0508" layer="51"/>
+<wire x1="1.1113" y1="-1.1113" x2="-1.1113" y2="-1.1113" width="0.0508" layer="51"/>
+<wire x1="-1.1113" y1="-1.1113" x2="-1.1113" y2="1.1113" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="1.8" dy="1.8" layer="1" cream="no"/>
+<text x="1.778" y="-0.508" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.778" y="-1.778" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-20RN">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+2.0 mm, Round</description>
+<circle x="0" y="0" radius="1.1447" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="2" dy="2" layer="1" roundness="100" cream="no"/>
+<text x="1.778" y="-0.508" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.778" y="-1.778" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-20SN">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+2.0 mm, Square</description>
+<wire x1="-1.1113" y1="1.1113" x2="1.1113" y2="1.1113" width="0.0508" layer="51"/>
+<wire x1="1.1113" y1="1.1113" x2="1.1113" y2="-1.1113" width="0.0508" layer="51"/>
+<wire x1="1.1113" y1="-1.1113" x2="-1.1113" y2="-1.1113" width="0.0508" layer="51"/>
+<wire x1="-1.1113" y1="-1.1113" x2="-1.1113" y2="1.1113" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="2" dy="2" layer="1" cream="no"/>
+<text x="1.778" y="-0.508" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.778" y="-1.778" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-5015">
+<description>SMD Testpoint&lt;p&gt;
+Keystone #5015</description>
+<wire x1="-1.8415" y1="1.016" x2="1.8415" y2="1.016" width="0.0508" layer="51"/>
+<wire x1="1.8415" y1="1.016" x2="1.8415" y2="-1.016" width="0.0508" layer="51"/>
+<wire x1="1.8415" y1="-1.016" x2="-1.8415" y2="-1.016" width="0.0508" layer="51"/>
+<wire x1="-1.8415" y1="-1.016" x2="-1.8415" y2="1.016" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="3.429" dy="1.778" layer="1"/>
+<text x="-1.778" y="1.27" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.778" y="-2.286" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-5016">
+<description>SMD Testpoint&lt;p&gt;
+Keystone #5016</description>
+<wire x1="-2.54" y1="1.905" x2="2.54" y2="1.905" width="0.0508" layer="51"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="-1.905" width="0.0508" layer="51"/>
+<wire x1="2.54" y1="-1.905" x2="-2.54" y2="-1.905" width="0.0508" layer="51"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="1.905" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="4.699" dy="3.429" layer="1"/>
+<text x="-2.413" y="2.159" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="-2.413" y="-3.175" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+</package>
+<package name="SMD-06RN">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+0.6 mm, Round</description>
+<circle x="0" y="0" radius="0.2828" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="0.6" dy="0.6" layer="1" roundness="100" cream="no"/>
+<text x="0.635" y="0.127" size="0.6096" layer="25" ratio="21">&gt;NAME</text>
+<text x="0.635" y="-0.635" size="0.6096" layer="25" ratio="21">&gt;LABEL</text>
+</package>
+<package name="PAD-016">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt; 0.016" Drill</description>
+<circle x="0" y="0" radius="0.635" width="0.0508" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.4064"/>
+<text x="1.27" y="0" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.27" y="-0.9525" size="0.8128" layer="25" ratio="18">&gt;LABEL</text>
+<rectangle x1="-0.3302" y1="-0.3302" x2="0.3302" y2="0.3302" layer="51"/>
+</package>
+<package name="PAD-024">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt; 0.024" Drill</description>
+<circle x="0" y="0" radius="0.635" width="0.0508" layer="51"/>
+<pad name="1" x="0" y="0" drill="0.6096" diameter="1.27"/>
+<text x="1.5875" y="0" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.5875" y="-1.27" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+<rectangle x1="-0.3302" y1="-0.3302" x2="0.3302" y2="0.3302" layer="51"/>
+</package>
+<package name="SMD-06R">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+0.6 mm, Round, Silk Outline</description>
+<circle x="0" y="0" radius="0.5656" width="0.1778" layer="21"/>
+<smd name="TP" x="0" y="0" dx="0.6" dy="0.6" layer="1" roundness="100" cream="no"/>
+<text x="0.889" y="0.127" size="0.6096" layer="25" ratio="21">&gt;NAME</text>
+<text x="0.889" y="-0.635" size="0.6096" layer="25" ratio="21">&gt;LABEL</text>
+</package>
+<package name="SMD-06S">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+0.6 mm, Square, Silk Outline</description>
+<wire x1="-0.5144" y1="0.5144" x2="-0.5144" y2="-0.5144" width="0.1778" layer="21"/>
+<wire x1="-0.5144" y1="-0.5144" x2="0.5144" y2="-0.5144" width="0.1778" layer="21"/>
+<wire x1="0.5144" y1="-0.5144" x2="0.5144" y2="0.5144" width="0.1778" layer="21"/>
+<wire x1="0.5144" y1="0.5144" x2="-0.5144" y2="0.5144" width="0.1778" layer="21"/>
+<smd name="TP" x="0" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
+<text x="0.889" y="0.127" size="0.6096" layer="25" ratio="21">&gt;NAME</text>
+<text x="0.889" y="-0.635" size="0.6096" layer="25" ratio="21">&gt;LABEL</text>
+</package>
+<package name="SMD-06SN">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+0.6 mm, Square</description>
+<wire x1="-0.4556" y1="0.4557" x2="-0.4556" y2="-0.4556" width="0.0508" layer="51"/>
+<wire x1="-0.4556" y1="-0.4556" x2="0.4556" y2="-0.4556" width="0.0508" layer="51"/>
+<wire x1="0.4556" y1="-0.4556" x2="0.4556" y2="0.4557" width="0.0508" layer="51"/>
+<wire x1="0.4556" y1="0.4557" x2="-0.4556" y2="0.4557" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="0.6" dy="0.6" layer="1" cream="no"/>
+<text x="0.889" y="0.127" size="0.6096" layer="25" ratio="21">&gt;NAME</text>
+<text x="0.889" y="-0.635" size="0.6096" layer="25" ratio="21">&gt;LABEL</text>
+</package>
+<package name="PAD-063">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt; 0.063" Drill</description>
+<circle x="0" y="0" radius="1.1981" width="0.0508" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.6002" diameter="2.794"/>
+<text x="2.8575" y="0.3175" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="2.8575" y="-0.9525" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+<rectangle x1="-0.381" y1="-0.381" x2="0.381" y2="0.381" layer="51"/>
+</package>
+<package name="5000-M">
+<description>&lt;b&gt;TEST POINT&lt;/b&gt; - Keystone&lt;p&gt;
+miniature test point, 40 mil hole, 0.1" diameter&lt;p&gt;
+Keystone 5000 Series</description>
+<pad name="1" x="0" y="0" drill="1.016" diameter="2.1844"/>
+<text x="1.905" y="0" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="1.905" y="-1.27" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+<circle x="0" y="0" radius="1.397" width="0.2032" layer="21"/>
+<rectangle x1="-1.11125" y1="-0.3175" x2="1.11125" y2="0.3175" layer="51"/>
+</package>
+<package name="5000-C/M">
+<description>&lt;b&gt;TEST POINT&lt;/b&gt; - Keystone&lt;p&gt;
+compact/multi-purpose test point, 63 mil hole, 0.125" diameter&lt;p&gt;
+Keystone 5000 Series</description>
+<pad name="1" x="0" y="0" drill="1.6764" diameter="3.048"/>
+<text x="2.06375" y="0" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="2.06375" y="-1.27" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+<circle x="0" y="0" radius="1.768903125" width="0.2032" layer="51"/>
+<rectangle x1="-1.42875" y1="-0.3175" x2="1.42875" y2="0.3175" layer="51"/>
+</package>
+<package name="605X">
+<description>&lt;b&gt;TEST POINT&lt;/b&gt; - Keystone&lt;p&gt;
+Universal Horizontal Test Jack&lt;p&gt;
+Keystone 6054-6059 Series</description>
+<pad name="1" x="-5.08" y="0" drill="1.4224"/>
+<pad name="2" x="5.08" y="0" drill="1.4224"/>
+<wire x1="-5.207" y1="1.9812" x2="5.207" y2="1.9812" width="0.0508" layer="51"/>
+<wire x1="5.207" y1="1.9812" x2="5.207" y2="-1.9812" width="0.0508" layer="51"/>
+<wire x1="5.207" y1="-1.9812" x2="-5.207" y2="-1.9812" width="0.0508" layer="51"/>
+<wire x1="-5.207" y1="-1.9812" x2="-5.207" y2="1.9812" width="0.0508" layer="51"/>
+<text x="-5.4" y="2.5" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="-5.4" y="-3.5" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
+<wire x1="-5.4" y1="1.554" x2="-5.4" y2="2.2" width="0.254" layer="21"/>
+<wire x1="-5.4" y1="2.2" x2="5.4" y2="2.2" width="0.254" layer="21"/>
+<wire x1="5.4" y1="2.2" x2="5.4" y2="1.554" width="0.254" layer="21"/>
+<wire x1="5.4" y1="-1.554" x2="5.4" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="5.4" y1="-2.2" x2="-5.4" y2="-2.2" width="0.254" layer="21"/>
+<wire x1="-5.4" y1="-2.2" x2="-5.4" y2="-1.554" width="0.254" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TPP">
+<wire x1="0" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<circle x="0" y="0" radius="0.5679" width="0" layer="94"/>
+<text x="-1.905" y="1.5875" size="1.778" layer="95">&gt;NAME</text>
+<pin name="P" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPP" prefix="TP">
+<description>&lt;b&gt;TEST POINT PAD&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SMD-08R" package="SMD-08R">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-08S" package="SMD-08S">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-10R" package="SMD-10R">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-10S" package="SMD-10S">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-12S" package="SMD-12S">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-12R" package="SMD-12R">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-15R" package="SMD-15R">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-18R" package="SMD-18R">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-20R" package="SMD-20R">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-15S" package="SMD-15S">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-18S" package="SMD-18S">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-20S" package="SMD-20S">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PAD-032" package="PAD-032">
+<connects>
+<connect gate="G$1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PAD-036" package="PAD-036">
+<connects>
+<connect gate="G$1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PAD-040" package="PAD-040">
+<connects>
+<connect gate="G$1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PAD-046" package="PAD-046">
+<connects>
+<connect gate="G$1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PAD-052" package="PAD-052">
+<connects>
+<connect gate="G$1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PAD-056" package="PAD-056">
+<connects>
+<connect gate="G$1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-08RN" package="SMD-08RN">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-08SN" package="SMD-08SN">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-10RN" package="SMD-10RN">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-10SN" package="SMD-10SN">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-12RN" package="SMD-12RN">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-12SN" package="SMD-12SN">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-15RN" package="SMD-15RN">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-15SN" package="SMD-15SN">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-18RN" package="SMD-18RN">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-18SN" package="SMD-18SN">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-20RN" package="SMD-20RN">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-20SN" package="SMD-20SN">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-5015" package="SMD-5015">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-5016" package="SMD-5016">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-06RN" package="SMD-06RN">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PAD-016" package="PAD-016">
+<connects>
+<connect gate="G$1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PAD-024" package="PAD-024">
+<connects>
+<connect gate="G$1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-06R" package="SMD-06R">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-06S" package="SMD-06S">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-06SN" package="SMD-06SN">
+<connects>
+<connect gate="G$1" pin="P" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-PAD-063" package="PAD-063">
+<connects>
+<connect gate="G$1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-5000-M" package="5000-M">
+<connects>
+<connect gate="G$1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-5000-C/M" package="5000-C/M">
+<connects>
+<connect gate="G$1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-605X" package="605X">
+<connects>
+<connect gate="G$1" pin="P" pad="1 2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="ABTEILUNG" value="Technische Informatik"/>
@@ -41102,7 +41886,6 @@ Eagle Ver. 9.x&lt;br&gt;</description>
 <part name="P+14" library="supply_STRH" deviceset="PGND" device=""/>
 <part name="C28" library="RPoettinger" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:14147459/1" value="1u"/>
 <part name="P+24" library="supply_STRH" deviceset="PGND" device=""/>
-<part name="X18" library="con_SekS" library_urn="urn:adsk.eagle:library:37507037" deviceset="AK500/2" device="" package3d_urn="urn:adsk.eagle:package:38663950/2" value="OUT"/>
 <part name="FRAMES1" library="frames_SekS_V22" library_urn="urn:adsk.eagle:library:37507199" deviceset="HTL-A4Q-V22" device=""/>
 <part name="FRAMES2" library="frames_SekS_V22" library_urn="urn:adsk.eagle:library:37507199" deviceset="HTL-A4Q-V22" device=""/>
 <part name="FRAMES3" library="frames_SekS_V22" library_urn="urn:adsk.eagle:library:37507199" deviceset="HTL-A4Q-V22" device=""/>
@@ -41154,6 +41937,14 @@ Eagle Ver. 9.x&lt;br&gt;</description>
 <part name="F1" library="fuse_SekS" library_urn="urn:adsk.eagle:library:37507069" deviceset="TE5" device="" package3d_urn="urn:adsk.eagle:package:39521299/3" value="4A"/>
 <part name="X2" library="con_PoeD" library_urn="urn:adsk.eagle:library:37347325" deviceset="BANANAJACK" device="BANANAJACK-BLACK" package3d_urn="urn:adsk.eagle:package:40115465/7"/>
 <part name="X9" library="con_PoeD" library_urn="urn:adsk.eagle:library:37347325" deviceset="BANANAJACK" device="BANANAJACK-RED" package3d_urn="urn:adsk.eagle:package:40115465/7"/>
+<part name="TP1" library="testpoint" deviceset="TPP" device="-SMD-20SN"/>
+<part name="TP2" library="testpoint" deviceset="TPP" device="-SMD-20SN"/>
+<part name="TP3" library="testpoint" deviceset="TPP" device="-SMD-20SN"/>
+<part name="TP4" library="testpoint" deviceset="TPP" device="-SMD-20SN"/>
+<part name="TP5" library="testpoint" deviceset="TPP" device="-SMD-20SN"/>
+<part name="TP6" library="testpoint" deviceset="TPP" device="-SMD-20SN"/>
+<part name="TP7" library="testpoint" deviceset="TPP" device="-SMD-20SN"/>
+<part name="TP8" library="testpoint" deviceset="TPP" device="-SMD-20SN"/>
 </parts>
 <sheets>
 <sheet>
@@ -41732,14 +42523,6 @@ HauP</text>
 <instance part="P+47" gate="G$1" x="254" y="50.8" smashed="yes">
 <attribute name="VALUE" x="251.968" y="48.768" size="1.27" layer="96"/>
 </instance>
-<instance part="X2" gate="G$1" x="172.72" y="124.46" smashed="yes">
-<attribute name="NAME" x="174.19" y="128.11" size="1.6764" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="174.24" y="126.198" size="1.27" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="X9" gate="G$1" x="172.72" y="116.84" smashed="yes">
-<attribute name="NAME" x="174.19" y="120.49" size="1.6764" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="174.24" y="118.578" size="1.27" layer="96" font="vector" align="bottom-center"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -42264,6 +43047,30 @@ HauP</text>
 <instance part="GND16" gate="1" x="127" y="86.36" smashed="yes">
 <attribute name="VALUE" x="127" y="84.328" size="1.27" layer="96" font="vector" align="bottom-center"/>
 </instance>
+<instance part="TP1" gate="G$1" x="175.26" y="66.04" smashed="yes">
+<attribute name="NAME" x="173.355" y="67.6275" size="1.778" layer="95"/>
+</instance>
+<instance part="TP2" gate="G$1" x="193.04" y="66.04" smashed="yes">
+<attribute name="NAME" x="191.135" y="67.6275" size="1.778" layer="95"/>
+</instance>
+<instance part="TP3" gate="G$1" x="210.82" y="66.04" smashed="yes">
+<attribute name="NAME" x="208.915" y="67.6275" size="1.778" layer="95"/>
+</instance>
+<instance part="TP4" gate="G$1" x="228.6" y="66.04" smashed="yes">
+<attribute name="NAME" x="226.695" y="67.6275" size="1.778" layer="95"/>
+</instance>
+<instance part="TP5" gate="G$1" x="241.3" y="66.04" smashed="yes">
+<attribute name="NAME" x="239.395" y="67.6275" size="1.778" layer="95"/>
+</instance>
+<instance part="TP6" gate="G$1" x="256.54" y="66.04" smashed="yes">
+<attribute name="NAME" x="254.635" y="67.6275" size="1.778" layer="95"/>
+</instance>
+<instance part="TP7" gate="G$1" x="157.48" y="66.04" smashed="yes">
+<attribute name="NAME" x="155.575" y="67.6275" size="1.778" layer="95"/>
+</instance>
+<instance part="TP8" gate="G$1" x="266.7" y="66.04" smashed="yes">
+<attribute name="NAME" x="264.795" y="67.6275" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -42326,6 +43133,11 @@ HauP</text>
 <wire x1="86.36" y1="127" x2="78.74" y2="127" width="0.1524" layer="91"/>
 <label x="78.74" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TP6" gate="G$1" pin="P"/>
+<wire x1="256.54" y1="63.5" x2="256.54" y2="58.42" width="0.1524" layer="91"/>
+<label x="256.54" y="58.42" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -42333,6 +43145,11 @@ HauP</text>
 <pinref part="U1" gate="G$1" pin="SCL"/>
 <wire x1="86.36" y1="129.54" x2="78.74" y2="129.54" width="0.1524" layer="91"/>
 <label x="78.74" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TP8" gate="G$1" pin="P"/>
+<wire x1="266.7" y1="63.5" x2="266.7" y2="58.42" width="0.1524" layer="91"/>
+<label x="266.7" y="58.42" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="PGND" class="0">
@@ -42365,6 +43182,11 @@ HauP</text>
 <pinref part="C17" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="132.08" x2="246.38" y2="127" width="0.1524" layer="91"/>
 <pinref part="P+26" gate="G$1" pin="PGND"/>
+</segment>
+<segment>
+<pinref part="TP5" gate="G$1" pin="P"/>
+<wire x1="241.3" y1="63.5" x2="241.3" y2="58.42" width="0.1524" layer="91"/>
+<label x="241.3" y="58.42" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -42444,12 +43266,22 @@ HauP</text>
 <pinref part="U1" gate="G$1" pin="BOOT2"/>
 <wire x1="121.92" y1="121.92" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="TP2" gate="G$1" pin="P"/>
+<wire x1="193.04" y1="63.5" x2="193.04" y2="60.96" width="0.1524" layer="91"/>
+<label x="193.04" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="BOOT1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="BOOT1"/>
 <wire x1="121.92" y1="124.46" x2="129.54" y2="124.46" width="0.1524" layer="91"/>
 <label x="129.54" y="124.46" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TP1" gate="G$1" pin="P"/>
+<wire x1="175.26" y1="63.5" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
+<label x="175.26" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -42466,12 +43298,22 @@ HauP</text>
 <wire x1="121.92" y1="114.3" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
 <label x="129.54" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TP4" gate="G$1" pin="P"/>
+<wire x1="228.6" y1="63.5" x2="228.6" y2="58.42" width="0.1524" layer="91"/>
+<label x="228.6" y="58.42" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
 </net>
 <net name="SW1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SW1"/>
 <wire x1="121.92" y1="116.84" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
 <label x="129.54" y="116.84" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TP3" gate="G$1" pin="P"/>
+<wire x1="210.82" y1="63.5" x2="210.82" y2="58.42" width="0.1524" layer="91"/>
+<label x="210.82" y="58.42" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="EN" class="0">
@@ -42534,6 +43376,13 @@ HauP</text>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="142.24" x2="160.02" y2="137.16" width="0.1524" layer="91"/>
 <label x="160.02" y="142.24" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VOUT" class="0">
+<segment>
+<pinref part="TP7" gate="G$1" pin="P"/>
+<wire x1="157.48" y1="63.5" x2="157.48" y2="60.96" width="0.1524" layer="91"/>
+<label x="157.48" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -42617,11 +43466,6 @@ HauP</text>
 <instance part="P+24" gate="G$1" x="121.92" y="91.44" smashed="yes">
 <attribute name="VALUE" x="119.888" y="89.408" size="1.27" layer="96"/>
 </instance>
-<instance part="X18" gate="-1" x="175.26" y="83.82" smashed="yes" rot="R180"/>
-<instance part="X18" gate="-2" x="175.26" y="99.06" smashed="yes" rot="R180">
-<attribute name="NAME" x="172.72" y="90.805" size="1.6764" layer="95" font="vector" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="172.72" y="88.011" size="1.27" layer="96" font="vector" align="bottom-center"/>
-</instance>
 <instance part="C29" gate="G$1" x="27.94" y="104.14" smashed="yes">
 <attribute name="NAME" x="33.02" y="102.3366" size="1.6764" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="33.02" y="100.5586" size="1.27" layer="96" font="vector" align="bottom-center"/>
@@ -42654,6 +43498,14 @@ HauP</text>
 </instance>
 <instance part="GND13" gate="1" x="190.5" y="78.74" smashed="yes">
 <attribute name="VALUE" x="190.5" y="76.962" size="1.27" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="X2" gate="G$1" x="172.72" y="86.36" smashed="yes">
+<attribute name="NAME" x="174.19" y="90.01" size="1.6764" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="174.24" y="88.098" size="1.27" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="X9" gate="G$1" x="172.72" y="96.52" smashed="yes">
+<attribute name="NAME" x="174.19" y="100.17" size="1.6764" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="174.24" y="98.258" size="1.27" layer="96" font="vector" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -42731,9 +43583,9 @@ HauP</text>
 <pinref part="P+39" gate="G$1" pin="PGND"/>
 </segment>
 <segment>
-<pinref part="X18" gate="-1" pin="KL"/>
-<wire x1="172.72" y1="83.82" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="86.36" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="P+42" gate="G$1" pin="PGND"/>
+<pinref part="X2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="ISN" class="0">
@@ -42813,16 +43665,18 @@ HauP</text>
 <label x="226.06" y="101.6" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="VOUT" class="0">
 <segment>
 <pinref part="R20" gate="G$1" pin="1"/>
-<pinref part="X18" gate="-2" pin="KL"/>
-<wire x1="172.72" y1="104.14" x2="172.72" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="104.14" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="104.14" x2="185.42" y2="104.14" width="0.1524" layer="91"/>
 <junction x="172.72" y="104.14"/>
 <wire x1="185.42" y1="104.14" x2="185.42" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="IN-"/>
 <wire x1="185.42" y1="111.76" x2="198.12" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="X9" gate="G$1" pin="2"/>
+<label x="162.56" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="172.72" y1="104.14" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
