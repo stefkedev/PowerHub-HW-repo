@@ -40909,6 +40909,74 @@ Wickmann</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con_PoeD" urn="urn:adsk.eagle:library:37347325">
+<description>&lt;b&gt;Connectors&lt;/B&gt;&lt;hr&gt;
+HTBLuVA Salzburg&lt;br&gt;
+Schuljahr: 2019-20&lt;br&gt;
+Eagle Ver. 9.x&lt;br&gt;</description>
+<packages>
+<package name="BANANAJACK" urn="urn:adsk.eagle:footprint:40115463/5" library_version="40">
+<pad name="P$1" x="0" y="0" drill="2.2" shape="octagon"/>
+<pad name="P$2" x="-3.8" y="5.08" drill="1.3" shape="octagon"/>
+<pad name="P$3" x="-3.8" y="-5.08" drill="1.3" shape="octagon"/>
+<pad name="P$4" x="6.63" y="-5.08" drill="1.3" shape="octagon"/>
+<pad name="P$5" x="6.63" y="5.08" drill="1.3" shape="octagon"/>
+<wire x1="-6.35" y1="6.731" x2="-6.35" y2="-6.604" width="0.3048" layer="21"/>
+<wire x1="-6.35" y1="-6.604" x2="27.94" y2="-6.604" width="0.3048" layer="21"/>
+<wire x1="27.94" y1="-6.604" x2="27.94" y2="6.731" width="0.3048" layer="21"/>
+<wire x1="27.94" y1="6.731" x2="-6.35" y2="6.731" width="0.3048" layer="21"/>
+<text x="-6.35" y="8.89" size="1.016" layer="25">&gt;NAME</text>
+<text x="-6.35" y="7.62" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="BANANAJACK" urn="urn:adsk.eagle:package:40115465/7" type="model" library_version="40">
+<packageinstances>
+<packageinstance name="BANANAJACK"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="BANANAJACK" urn="urn:adsk.eagle:symbol:40115464/2" library_version="40">
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas"/>
+<wire x1="2.54" y1="0" x2="3.302" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-0.508" x2="3.81" y2="0.508" width="0.1524" layer="94" curve="-180"/>
+<text x="1.47" y="3.65" size="1.6764" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="1.52" y="1.738" size="1.27" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BANANAJACK" urn="urn:adsk.eagle:component:40115466/6" prefix="X" library_version="40">
+<gates>
+<gate name="G$1" symbol="BANANAJACK" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="BANANAJACK-RED" package="BANANAJACK">
+<connects>
+<connect gate="G$1" pin="2" pad="P$1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40115465/7"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BANANAJACK-BLACK" package="BANANAJACK">
+<connects>
+<connect gate="G$1" pin="2" pad="P$1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40115465/7"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="ABTEILUNG" value="Technische Informatik"/>
@@ -41084,6 +41152,8 @@ Wickmann</description>
 <part name="P+46" library="supply_STRH" deviceset="PGND" device=""/>
 <part name="P+47" library="supply_STRH" deviceset="PGND" device=""/>
 <part name="F1" library="fuse_SekS" library_urn="urn:adsk.eagle:library:37507069" deviceset="TE5" device="" package3d_urn="urn:adsk.eagle:package:39521299/3" value="4A"/>
+<part name="X2" library="con_PoeD" library_urn="urn:adsk.eagle:library:37347325" deviceset="BANANAJACK" device="BANANAJACK-BLACK" package3d_urn="urn:adsk.eagle:package:40115465/7"/>
+<part name="X9" library="con_PoeD" library_urn="urn:adsk.eagle:library:37347325" deviceset="BANANAJACK" device="BANANAJACK-RED" package3d_urn="urn:adsk.eagle:package:40115465/7"/>
 </parts>
 <sheets>
 <sheet>
@@ -41661,6 +41731,14 @@ HauP</text>
 </instance>
 <instance part="P+47" gate="G$1" x="254" y="50.8" smashed="yes">
 <attribute name="VALUE" x="251.968" y="48.768" size="1.27" layer="96"/>
+</instance>
+<instance part="X2" gate="G$1" x="172.72" y="124.46" smashed="yes">
+<attribute name="NAME" x="174.19" y="128.11" size="1.6764" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="174.24" y="126.198" size="1.27" layer="96" font="vector" align="bottom-center"/>
+</instance>
+<instance part="X9" gate="G$1" x="172.72" y="116.84" smashed="yes">
+<attribute name="NAME" x="174.19" y="120.49" size="1.6764" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="174.24" y="118.578" size="1.27" layer="96" font="vector" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
