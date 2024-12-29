@@ -41935,8 +41935,8 @@ Keystone 6054-6059 Series</description>
 <part name="P+46" library="supply_STRH" deviceset="PGND" device=""/>
 <part name="P+47" library="supply_STRH" deviceset="PGND" device=""/>
 <part name="F1" library="fuse_SekS" library_urn="urn:adsk.eagle:library:37507069" deviceset="TE5" device="" package3d_urn="urn:adsk.eagle:package:39521299/3" value="4A"/>
-<part name="X2" library="con_PoeD" library_urn="urn:adsk.eagle:library:37347325" deviceset="BANANAJACK" device="BANANAJACK-BLACK" package3d_urn="urn:adsk.eagle:package:40115465/7"/>
-<part name="X9" library="con_PoeD" library_urn="urn:adsk.eagle:library:37347325" deviceset="BANANAJACK" device="BANANAJACK-RED" package3d_urn="urn:adsk.eagle:package:40115465/7"/>
+<part name="X2" library="con_PoeD" library_urn="urn:adsk.eagle:library:37347325" deviceset="BANANAJACK" device="BANANAJACK-BLACK" package3d_urn="urn:adsk.eagle:package:40115465/7" override_package3d_urn="urn:adsk.eagle:package:40115465/9" override_package_urn="urn:adsk.eagle:footprint:40115463/5"/>
+<part name="X9" library="con_PoeD" library_urn="urn:adsk.eagle:library:37347325" deviceset="BANANAJACK" device="BANANAJACK-RED" package3d_urn="urn:adsk.eagle:package:40115465/7" override_package3d_urn="urn:adsk.eagle:package:46113383/2" override_package_urn="urn:adsk.eagle:footprint:40115463/5"/>
 <part name="TP1" library="testpoint" deviceset="TPP" device="-SMD-20SN"/>
 <part name="TP2" library="testpoint" deviceset="TPP" device="-SMD-20SN"/>
 <part name="TP3" library="testpoint" deviceset="TPP" device="-SMD-20SN"/>
@@ -43708,6 +43708,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
